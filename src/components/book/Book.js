@@ -37,7 +37,7 @@ const Book = ({ item, onDelete }) => {
                 <Button
                     variant="contained"
                     color="error"
-                    style={{ height: '40px', width: '120px' }}
+                    style={{ height: '40px', width: '120px', marginLeft: '20px' }}
                     onClick={handleDeleteClick}
                 >
                     Delete
